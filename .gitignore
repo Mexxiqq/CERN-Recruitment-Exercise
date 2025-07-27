@@ -1,0 +1,99 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+ENV/
+VENV/
+env.bak/
+venv.bak/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+test_data.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs and local environment files
+*.log
+logs/
+*.bak
+*.tmp
+*.swp
+
+# PyCharm / VS Code
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backup files
+*~
+*.orig
+*.bak
+
+# SVG rendering cache (if any)
+*.svg.cache
+
+# PyQt6 UI / cache artifacts
+*.qrc
+*.ui.pyc
+
+# Application-specific folders
+country_picker/__pycache__/
+country_picker/*.pyc
+
+# Test artifacts
+test-results/
+*.testlog
+
+# SQLite or local DB files (if applicable)
+*.sqlite
+*.db
