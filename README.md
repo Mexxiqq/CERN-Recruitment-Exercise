@@ -80,8 +80,10 @@ RecruitmentExercise/
 │   ├── utils.py              # Helper functions
 │   ├── data.py               # API data fetching
 │   ├── config.py             # Configuration constants
-│   └── assets/
-│       └── flags/            # (empty, created at runtime)
+│   ├── assets/               # Content loaded dynamically at runtime.
+│   │   └── flags/            # (empty, created at runtime, keeps downloaded SVGs here)
+│   └── resources/            # Logic of the app, part of compiling the app
+│       └── icon.ico/         # app icon, part of the app logic
 ├── logs/
 │   └── app.log               
 ├── tests/                    
