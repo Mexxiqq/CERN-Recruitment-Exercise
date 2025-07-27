@@ -27,6 +27,10 @@ class CountryPickerUI(QWidget):
         self.setWindowTitle("Country Picker")
         self.setMinimumSize(600, 250)
 
+        # Set custom window icon
+        icon_path = os.path.join(os.path.dirname(__file__), "resources", "icon.ico")
+        self.setWindowIcon(QIcon(icon_path))
+
         # Main vertical layout for the widget
         self.layout = QVBoxLayout(self)
 
